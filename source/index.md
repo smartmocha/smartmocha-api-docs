@@ -54,6 +54,11 @@ curl -u your-api-token: https://api.smartmocha.com/v0/devices
   "count": 1,
   "data": [
     {
+      "attached_devices": [
+        "A6B2E93A15267DBF",
+        "3AD97529EE51A8A4",
+        "CCE29492A7044737"
+      ],
       "created_at": "2014-05-02T18:54:09",
       "deployed": false,
       "description": null,
@@ -102,6 +107,11 @@ curl -u your-api-token: https://api.smartmocha.com/v0/device/D0A0D862CC766B7A
 
 ```json
 {
+  "attached_devices": [
+    "A6B2E93A15267DBF",
+    "3AD97529EE51A8A4",
+    "CCE29492A7044737"
+  ],
   "created_at": "2014-05-02T18:54:09",
   "deployed": false,
   "description": null,
@@ -156,6 +166,11 @@ curl -u your-api-token: -H "Content-Type: application/json" -XPUT -d @update-dev
 
 ```json
 {
+  "attached_devices": [
+    "A6B2E93A15267DBF",
+    "3AD97529EE51A8A4",
+    "CCE29492A7044737"
+  ],
   "created_at": "2014-05-02T18:54:09",
   "deployed": false,
   "description": "Pacific Building 5th Floor",
